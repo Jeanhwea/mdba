@@ -1,8 +1,13 @@
-* MySQL DBA scripts
+#+TITLE: MySQL DBA scripts
+#+AUTHOR: Jinghui Hu
+#+EMAIL: hujinghui@buaa.edu.cn
+#+DATE: <2019-12-01 Sun 15:13:25>
 
-** setup emacs
 
-   Create ~.dir-locals.el~, then add some initial codes
+* Pre-Actions
+
+** Setup ~.dir-locals.el~
+   Create ~.dir-locals.el~, then add this lisp codes.
 
    #+BEGIN_SRC elisp
      ((sql-mode .
