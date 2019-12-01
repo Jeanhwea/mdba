@@ -1,0 +1,15 @@
+* MySQL DBA scripts
+
+** setup emacs
+
+   Create ~.dir-locals.el~, then add some initial codes
+
+   #+BEGIN_SRC elisp
+     ((sql-mode .
+        ((eval . (sql-set-product 'mysql))
+          (sql-user . "username")
+          (sql-password . "password")
+          (sql-server . "127.0.0.1")
+          (sql-port . 3306)
+          (sql-database . "database"))))
+   #+END_SRC
